@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <link rel="stylesheet" href="./css/index.css">
+        <title>Formulario de Contacto</title>
+    </head>
+    <body>
+        <div class="container contact mt-20">
+            <div class="row">
+                <div class="col l12 m12 s12 pt-30 pr-50 pb-40 pl-50 contact-header">
+                    <h1> CONTÁCTANOS </h1>
+                    <a class="waves-effect waves-light"><i class="material-icons">close</i></a>
+                </div>
+            
+                <div class="col l12 m12 s12 contact-body p-0" >
+                    <div class="col l7 m7 s12 contact-form">
+                        <form action="">
+                            <div class="input-field">
+                                <input type="text" id="name" class="pl-15 pb-10">
+                                <label for="name" class="pl-15 blue-grey-text text-darken-1">Nombre</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="text" id="lastname" class="pl-15 pb-10">
+                                <label for="lastname" class="pl-15 blue-grey-text text-darken-1">Apellidos</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="email" id="email" class="pl-15 pb-10">
+                                <label for="email" class="pl-15 blue-grey-text text-darken-1">Email</label>
+                            </div>
+                            <div class="input-field">
+                                <input type="text" id="phone" class="pl-15 pb-10">
+                                <label for="phone" class="pl-15 blue-grey-text text-darken-1" >Teléfono (+519...)</label>
+                            </div>
+                            <div class="input-field mb-25">
+                                <input type="text" id="ruc" class="pl-15 pb-10">
+                                <label for="ruc" class="pl-15 blue-grey-text text-darken-1">RUC</label>
+                            </div>
+                            <label class="contact-checkbox">
+                                <input type="checkbox" class="filled-in" />
+                                <span>Aceptar <a href="#">términos y condiciones</a></span>
+                            </label>
+                            <div class="mt-40 contact-btn">
+                                <a class="waves-effect waves-light btn">CONTÁCTANOS</a>
+                            </div>
+                            
+                        </form>
+                    </div>
+                    <div class="col l5 m5 s12 p-0 hide-on-small-only contact-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
